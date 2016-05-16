@@ -101,6 +101,12 @@
           <artifactId>commons-email</artifactId>
           <version>1.4</version>
       </dependency>
+      <dependency>
+          <groupId>org.apache.tomcat.embed</groupId>
+          <artifactId>tomcat-embed-core</artifactId>
+          <version>7.0.47</version>
+          <scope>provided</scope>
+      </dependency>
   </dependencies>
     <build>
         <finalName>home</finalName>
